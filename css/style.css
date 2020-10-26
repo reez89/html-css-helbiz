@@ -1,6 +1,20 @@
+#how{
+  background-image: url(../img/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+.layover{
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 a{
   text-decoration: none;
   color: white;
+}
+
+.learn_more{
+  color: blue;
 }
 .pdlx_1{
   padding-left: 1rem;
@@ -14,10 +28,14 @@ a{
   margin-right: 20px;
 }
 
+.my_40{
+  margin: 40px 0;
+}
 
 nav{
   height: 80px;
   line-height: 80px;
+  color: white;
 }
 
 .header_menu{
@@ -84,7 +102,6 @@ header{
 max-width: 100%;
 }
 
-.left_menu a{
-  color: blue;
-
+.card p{
+  margin: 20px 0;
 }
