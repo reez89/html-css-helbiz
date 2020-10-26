@@ -1,8 +1,8 @@
 #how{
   background-image: url(../img/download.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
+  background-size: contain;
+  height: 800px;
 }
 .layover{
   height: 500px;
@@ -104,4 +104,38 @@ max-width: 100%;
 
 .card p{
   margin: 20px 0;
+}
+
+.how_items{
+  height: 800px;
+}
+
+#how img{
+  height: 600px;
+}
+
+#how .how_txt{
+  width: 100%;
+}
+
+.how_items_1,
+.how_items_3{
+  position: relative;
+  top: 80%;
+  transform: translateY(-80%);
+}
+.how_items_2{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.how_items_3{
+  align-items: center;
+  text-align: center;
+}
+
+.how_items_3{
+  width: 20%;
 }
