@@ -47,6 +47,16 @@ nav{
   padding: 0 10px;
   font-weight: bold;
 }
+.header_logo img{
+  color: white;
+  line-height: 80px;
+  height: 10px;
+}
+
+.white_bg{
+  height: 80px;
+  background-color: white;
+}
 
 header{
   height: 500px;
@@ -198,4 +208,23 @@ max-width: 100%;
 .card_left p{
   font-size: 20px;
   padding-bottom: 30px;
+}
+
+#site_footer{
+  margin-top: 30px;
+  height: 800px;
+  background-color: black;
+}
+
+#site_footer h4{
+  color: white;
+  padding-top: 40px;
+}
+
+#site_footer ul > li >  a{
+  color: grey;
+}
+
+#site_footer ul > li{
+  padding: 10px 0;
 }
